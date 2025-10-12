@@ -1,0 +1,4 @@
+# Recommended Rasa + SDK versions. NOTE: these versions may not support Python 3.13.
+# If you have Python 3.11 or 3.10 available, use that interpreter to create the venv.
+rasa==3.7.2
+rasa-sdk==3.7.0

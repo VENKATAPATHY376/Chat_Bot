@@ -1,0 +1,97 @@
+version: "3.1"
+
+rules:
+  - rule: Respond to greeting
+    steps:
+      - intent: greet
+      - action: utter_greet
+
+  - rule: Respond to "What is a clinical trial?"
+    steps:
+      - intent: what_is_clinical_trial
+      - action: utter_what_is_clinical_trial
+
+  - rule: Respond to "Intervention types in trial"
+    steps:
+      - intent: intervention_types
+      - action: utter_intervention_types
+
+  - rule: Respond to "Risks in trial"
+    steps:
+      - intent: risks
+      - action: utter_risks
+
+  - rule: Respond to "Side effects management"
+    steps:
+      - intent: side_effects_management
+      - action: utter_side_effects_management
+
+  - rule: Respond to "Refuse participation"
+    steps:
+      - intent: refuse_participation
+      - action: utter_refuse_participation
+
+  - rule: Respond to "Withdraw participation"
+    steps:
+      - intent: withdraw_participation
+      - action: utter_withdraw_participation
+
+  - rule: Respond to "Trial details"
+    steps:
+      - intent: trial_details
+      - action: utter_trial_details
+
+  - rule: Respond to "Governing bodies"
+    steps:
+      - intent: governing_bodies
+      - action: utter_governing_bodies
+
+  - rule: Respond to "Why called clinical trial"
+    steps:
+      - intent: why_called_clinical_trial
+      - action: utter_why_called_clinical_trial
+
+  - rule: Respond to "Participant count"
+    steps:
+      - intent: participant_count
+      - action: utter_participant_count
+
+  - rule: Respond to "Same medication"
+    steps:
+      - intent: same_medication
+      - action: utter_same_medication
+
+  - rule: Respond to "Medical care"
+    steps:
+      - intent: medical_care
+      - action: utter_medical_care
+
+  - rule: Respond to "Compensation"
+    steps:
+      - intent: compensation
+      - action: utter_compensation
+
+  - rule: Respond to "Long-term side effects"
+    steps:
+      - intent: long_term_side_effects
+      - action: utter_long_term_side_effects
+
+  - rule: Respond to "Data confidentiality"
+    steps:
+      - intent: data_confidentiality
+      - action: utter_data_confidentiality
+
+  - rule: Respond to "Expenses covered"
+    steps:
+      - intent: expenses_covered
+      - action: utter_expenses_covered
+
+  - rule: Respond to "Fees for participation"
+    steps:
+      - intent: fees
+      - action: utter_fees
+
+  - rule: Respond to "Inform family"
+    steps:
+      - intent: inform_family
+      - action: utter_inform_family

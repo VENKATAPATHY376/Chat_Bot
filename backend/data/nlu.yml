@@ -1,0 +1,149 @@
+version: "3.1"
+
+nlu:
+  - intent: greet
+    examples: |
+      - hey
+      - hello
+      - hi
+      - good morning
+      - good evening
+      - hey there
+
+  - intent: mood_great
+    examples: |
+      - great
+      - amazing
+      - wonderful
+      - perfect
+      - excellent
+      - fantastic
+
+  - intent: mood_unhappy
+    examples: |
+      - sad
+      - not good
+      - terrible
+      - awful
+      - not great
+      - unhappy
+
+  - intent: affirm
+    examples: |
+      - yes
+      - indeed
+      - of course
+      - that sounds good
+      - correct
+      - yes that helped
+
+  - intent: deny
+    examples: |
+      - no
+      - never
+      - I don't think so
+      - don't like that
+      - no way
+      - not really
+
+  - intent: what_is_clinical_trial
+    examples: |
+      - What is a clinical trial?
+      - Can you explain what a clinical trial is?
+      - Tell me about clinical trials
+      - What does clinical trial mean?
+      - Define clinical trial
+      - Explain clinical research
+
+  - intent: intervention_types
+    examples: |
+      - Will only medicines be given in the trial?
+      - Are there other interventions apart from drugs?
+      - Can the trial involve devices or procedures?
+
+  - intent: risks
+    examples: |
+      - What risks do I face in the trial?
+      - Are there side effects?
+      - What if the new treatment doesn't work?
+
+  - intent: side_effects_management
+    examples: |
+      - What if something goes wrong during the trial?
+      - Who manages side effects or adverse events?
+      - What if I have complications?
+
+  - intent: refuse_participation
+    examples: |
+      - What if I refuse to participate?
+      - Can I opt out of the trial?
+      - Will my treatment be affected if I don't join?
+
+  - intent: withdraw_participation
+    examples: |
+      - How can I withdraw from the trial?
+      - Can I leave the trial midway?
+      - What is the procedure if I stop participating?
+
+  - intent: trial_details
+    examples: |
+      - How long will the trial last?
+      - Can you tell me about the duration and visits?
+      - What are the procedures and follow-ups?
+
+  - intent: governing_bodies
+    examples: |
+      - Are there any organisations overseeing this trial?
+      - Who regulates clinical trials?
+      - Is DCGI or FDA involved?
+
+  - intent: why_called_clinical_trial
+    examples: |
+      - Why is it called a clinical trial?
+      - Does it have anything to do with clinics?
+      - What does the term "clinical trial" mean?
+
+  - intent: participant_count
+    examples: |
+      - How many participants will be enrolled?
+      - Will many people join along with me?
+
+  - intent: same_medication
+    examples: |
+      - Will all participants get the same medication?
+      - Is there a placebo group?
+
+  - intent: medical_care
+    examples: |
+      - Who will provide medical care during the trial?
+      - Who is responsible for my treatment?
+
+  - intent: compensation
+    examples: |
+      - What compensation is provided if harm occurs?
+      - Will I be reimbursed for any adverse events?
+
+  - intent: long_term_side_effects
+    examples: |
+      - Who takes care of long-term side effects?
+      - Are the trial team responsible after the trial ends?
+
+  - intent: data_confidentiality
+    examples: |
+      - Will my personal data remain confidential?
+      - Is my information safe?
+
+  - intent: expenses_covered
+    examples: |
+      - What expenses are covered during the trial?
+      - Will travel or accommodation be paid?
+
+  - intent: fees
+    examples: |
+      - Do I need to pay to participate?
+      - Is there any fee for joining?
+
+  - intent: inform_family
+    examples: |
+      - Can I tell my family about my participation?
+      - Am I allowed to inform relatives?

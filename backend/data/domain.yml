@@ -1,0 +1,92 @@
+version: "3.1"
+
+intents:
+  - greet
+  - mood_great
+  - mood_unhappy
+  - affirm
+  - deny
+  - what_is_clinical_trial
+  - safety
+  - vaccine_importance
+  - participation
+  - benefits
+  - intervention_types
+  - risks
+  - side_effects_management
+  - refuse_participation
+  - withdraw_participation
+  - trial_details
+  - governing_bodies
+  - why_called_clinical_trial
+  - participant_count
+  - same_medication
+  - medical_care
+  - compensation
+  - long_term_side_effects
+  - data_confidentiality
+  - expenses_covered
+  - fees
+  - inform_family
+
+responses:
+  utter_greet:
+    - text: "Hello! I'm here to help you understand clinical trials and research participation. How can I assist you today?"
+  
+  utter_happy:
+    - text: "Great! I'm glad I could help. Feel free to ask me anything else about clinical trials."
+  
+  utter_cheer_up:
+    - text: "I understand clinical trials can seem complex. Let me help clarify any concerns you have."
+  
+  utter_did_that_help:
+    - text: "Did that information help address your concerns?"
+  
+  utter_goodbye:
+    - text: "Thank you for your time. If you have more questions about clinical trials, feel free to ask anytime. Take care!"
+  utter_clinical_trial:
+    - text: "A clinical trial is a research study where new medicines or vaccines are tested with volunteers to check if they are safe and effective."
+  utter_safety:
+    - text: "✅ Yes, trials are safe. They are reviewed by ethics committees and monitored closely."
+  utter_vaccine_importance:
+    - text: "Vaccine trials are essential to make sure vaccines protect people from diseases without serious side effects."
+  utter_participation:
+    - text: "You can join by contacting the Clinical Research Department. Doctors will guide you through eligibility steps."
+  utter_benefits:
+    - text: "By joining, you help medical science and may also get access to new treatments under careful supervision. The Informed Consent Form (ICF) will provide details about potential benefits, such as access to new treatments, regular health checkups, and contributing to medical research."
+  utter_what_is_clinical_trial:
+    - text: "A clinical trial is a research study conducted in humans to evaluate the safety and effectiveness of medical interventions like drugs, devices, or procedures."
+  utter_intervention_types:
+    - text: "No. Interventions can include medical devices, surgical procedures, lifestyle changes, or diagnostic tools, in addition to medicines."
+  utter_risks:
+    - text: "Risks may include side effects, adverse events, or the new intervention not being as effective as expected. These risks will be clearly explained in the ICF before participation."
+  utter_side_effects_management:
+    - text: "Any side effects or adverse events will be managed by the clinical team. Necessary medical care and compensation, if applicable, will be provided as per ethical guidelines and regulatory requirements."
+  utter_refuse_participation:
+    - text: "Participation is entirely voluntary. Refusing will not affect your regular medical care or treatment in any way."
+  utter_withdraw_participation:
+    - text: "You can withdraw at any time without giving a reason. Inform the study team, and they will guide you through the withdrawal process. Your medical care will continue as usual."
+  utter_trial_details:
+    - text: "All relevant information—such as duration, number of visits, procedures, and follow-ups—will be explained to you before you sign the ICF."
+  utter_governing_bodies:
+    - text: "Clinical trials are regulated by ethics committees, regulatory authorities (like DCGI in India or FDA in the U.S.), and institutional review boards to ensure participant safety and scientific integrity."
+  utter_why_called_clinical_trial:
+    - text: "The term 'clinical' refers to involving real patients in healthcare settings, often in clinics or hospitals. A 'trial' indicates the testing of a medical intervention."
+  utter_participant_count:
+    - text: "The number of participants enrolled depends on the phase of the clinical trial. Each phase (I to IV) involves a different number of participants."
+  utter_same_medication:
+    - text: "No, not all participants will receive the same treatment. Some will receive the investigational drug, while others may receive a placebo or standard treatment for comparison."
+  utter_medical_care:
+    - text: "The trial will be conducted under the supervision of a Principal Investigator (PI), who is a qualified physician responsible for your medical care throughout the study."
+  utter_compensation:
+    - text: "All participants are covered by insurance during the trial. In case of any adverse events, necessary medical care will be provided at no cost to you."
+  utter_long_term_side_effects:
+    - text: "If any long-term side effects arise during the trial period, the Principal Investigator will provide the required medical care. After the trial ends, the team is not responsible for new effects outside the drug's half-life period."
+  utter_data_confidentiality:
+    - text: "Yes, all data collected during the trial will be kept strictly confidential and will only be accessible to the trial team."
+  utter_expenses_covered:
+    - text: "The trial will cover travel expenses, medical care costs, and accommodation charges if an overnight stay at the trial site is required."
+  utter_fees:
+    - text: "No, you do not need to pay any fees to participate in the clinical trial."
+  utter_inform_family:
+    - text: "Yes, you may inform your family about your participation in the trial."

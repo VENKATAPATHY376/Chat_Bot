@@ -1,0 +1,104 @@
+# =============================
+# Global settings
+# =============================
+.DS_Store
+Thumbs.db
+*.log
+*.env
+*.pyc
+__pycache__/
+.env*
+.env.local
+.vscode/
+.idea/
+*.bak
+*.swp
+*.tmp
+
+# =============================
+# Node / React frontend
+# =============================
+# dependencies
+frontend/node_modules/
+frontend/.pnp
+frontend/.pnp.js
+
+# production
+frontend/build/
+frontend/dist/
+frontend/coverage/
+
+# misc
+frontend/.cache/
+frontend/.eslintcache
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/package-lock.json
+
+# local env files
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# editor
+frontend/.vscode/
+frontend/.idea/
+
+# =============================
+# Python / Rasa backend
+# =============================
+# byte-compiled
+backend/__pycache__/
+backend/**/*.py[cod]
+backend/*.py[cod]
+
+# rasa cache and logs
+backend/results/
+backend/.rasa/
+backend/.rasa_cache/
+backend/.rasa_tmp/
+backend/models/
+backend/events.db
+backend/endpoints.db
+backend/logs/
+backend/.rasa-interactive.json
+
+# virtual environments
+backend/venv/
+backend/.venv/
+backend/env/
+backend/.env/
+backend/Lib/
+backend/Scripts/
+backend/include/
+backend/share/
+backend/bin/
+backend/pip-wheel-metadata/
+
+# local config and credentials
+backend/credentials.yml
+backend/endpoints.yml
+backend/.env
+backend/.env.local
+backend/.env.production
+backend/.env.test
+
+# jupyter notebooks checkpoints
+backend/.ipynb_checkpoints/
+
+# =============================
+# System files
+# =============================
+*.db
+*.sqlite
+*.sqlite3
+*.pid
+*.seed
+*.pid.lock
+*.lock
+*.log
+*.bak
+*.tmp
